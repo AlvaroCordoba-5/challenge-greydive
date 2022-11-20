@@ -1,0 +1,44 @@
+.page h1 {
+    font-family: 'Hind', sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.info p{
+    overflow-y: scroll;
+    width: 90%;
+    height: 20em;
+    color: white;
+    margin-top: 4em;
+}
+
+.info h2{
+    color: #133353;
+    font-family: 'Hind', sans-serif;
+}
+
+.info iframe{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.info p::-webkit-scrollbar {
+    background-color:white;
+    border-radius: 5px;
+    width: 3px;
+   
+  }
+  
+  .info p::-webkit-scrollbar-thumb {
+    background-color: #133353;
+      border-radius: 5px;
+  }
