@@ -29,6 +29,8 @@
 .info iframe{
     border: 1px solid black;
     border-radius: 5px;
+    width: 50em;
+    height: 30em;
 }
 
 .info p::-webkit-scrollbar {
@@ -42,3 +44,40 @@
     background-color: #133353;
       border-radius: 5px;
   }
+
+  .tareas h2{
+color: white;
+  }
+
+  .tareas h3{
+    color: #133353;
+  }
+  .tareas div{
+    border: 1px solid white;
+  }
+
+  .card-tareas h5{
+color: #921124
+}
+.card-tareas h4{
+    color:white
+    }
+    
+
+.card-tareas div{
+    border: 1px solid white;
+}
+
+.link{
+    color: wheat;
+    text-decoration: none;
+}
+.button{
+    border: 1px solid #133353;
+    width: max-content;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 1em 0 0 auto;
+    background: #133353;
+}
+

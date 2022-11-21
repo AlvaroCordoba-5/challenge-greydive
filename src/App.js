@@ -4,10 +4,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 
 function App() {
- 
   return (
+   
     <Routes>
-      {db&&db.map((e,i)=>
+      {db.map((e,i)=>
       <Route exact path={`/test-${i+1}`} element={<Home
         cliente={e.cliente}
         testeador={i+1}
